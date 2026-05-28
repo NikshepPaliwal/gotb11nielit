@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First VR Page</title>
+<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+   <!-- To run the below code change the version no: 0.4.0 -->
+   <!-- <a-box position="0 1.5 -3" rotation="0 0 0" color="red">
+        <a-animation attribute="scale" to="2 1 1" dur="3000" repeat="indefinite"></a-animation>
+   </a-box> -->
+
+   <a-sphere position="0 1 -3" color="yellow" animation="property:position; to: 4 1 -1; dur:2000; loop:8; dir:alternate; delay:2000" radius="0.5"></a-sphere>
+
+   <a-text value="Sun" position="-0.2 0.2 -3" color="blue" animation="property:position; to: 4 1 -1; dur:2000; loop:8; dir:alternate; delay:2000"></a-text>
+</a-scene>
+</body>
+</html>
